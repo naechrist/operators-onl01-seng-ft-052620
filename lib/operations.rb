@@ -1,7 +1,8 @@
 require 'pry'
 
 def unsafe?(speed)
- bindind.pry 
+  binding.pry 
+ speed > 60
 end
 
 
